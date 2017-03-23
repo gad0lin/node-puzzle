@@ -2,10 +2,6 @@
 var bestMoves = {};
 var transactionCost = 1;
 function find_best(prices, start) {
-
-	/*  if (start == prices.length) {
-	    return 1000000000000;
-	    }*/
 	if (start == prices.length -1) {
 		return {gain: 0, moves: []}
 	}
