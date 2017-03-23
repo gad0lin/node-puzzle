@@ -42,11 +42,7 @@ function fb(arr) {
         console.log("Best gain " + JSON.stringify(bestMoves[0]));
 }
 var myArgs =  process.argv.slice(2); 
-
 var prices = myArgs[0]
-
 transactionCost = myArgs[1] || 1;
-console.log(process.argv[3]);
-//transactionCost = process.argv[4]
 // fb([10,20, 5, 100]);
 fb(JSON.parse(prices));
